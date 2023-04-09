@@ -17,6 +17,8 @@
     if (isset($_POST['submit'])) {
       // store post variable for emailType retrieved from lost password and/or new account form upon submission
       $emailType = $_POST['emailType'];
+      // store email retireved as post variable as session variable
+      $_SESSION['email'] = $_POST['email'];
     }
   ?>
 

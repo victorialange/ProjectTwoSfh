@@ -33,7 +33,7 @@
         <form action="send-email.php" method="post" class="sendEmailForm">
           <!-- email input -->
           <label for="existingEmail">Email: </label>
-          <input type="email" name="existingEmail" id="existingEmail" placeholder="Your Email" required>
+          <input type="email" name="email" id="existingEmail" placeholder="Your Email" required>
           <!-- can be hidden input in order to store emailType value as newAccount -->
           <input type="hidden" name="emailType" value="<?php echo $emailType; ?>">
           <!-- submit button -->
