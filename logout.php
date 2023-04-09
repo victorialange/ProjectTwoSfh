@@ -21,7 +21,7 @@
     <section class="logoutMain">
       <div class="wrapper">
         <!-- Content: Confirm Logout -->
-        <h3>You logged out successfully.</h3>
+        <h3 class="message">You logged out successfully.</h3>
       </div>
     </section>
   </main>
