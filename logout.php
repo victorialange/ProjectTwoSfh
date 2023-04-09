@@ -12,9 +12,19 @@
 
   <?php
     // Destroy session
+    session_destroy();
+    // this will redirect the user again to the "login page/ the support form"
+    header('Refresh: 2; URL = project2home.php');
   ?>
 
-  <!-- Content: Confirm Logout -->
+  <main>
+    <section class="logoutMain">
+      <div class="wrapper">
+        <!-- Content: Confirm Logout -->
+        <h3>You logged out successfully.</h3>
+      </div>
+    </section>
+  </main>
 
   <!-- include footer.php for copyright -->
   <?php include 'footer.php'; ?>
