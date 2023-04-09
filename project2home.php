@@ -37,9 +37,9 @@
     <!-- 4th field: dropdwon menu for role -->
     <label for="role">Role</label>
     <select name="role" id="role" required>
-      <option value="admin">Admin</option>
-      <option value="manager">Manager</option>
-      <option value="ceo">CEO</option>
+      <option value="Admin">Admin</option>
+      <option value="Manager">Manager</option>
+      <option value="CEO">CEO</option>
     </select>
 
     <!-- submit button -->
