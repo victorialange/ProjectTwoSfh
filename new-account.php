@@ -4,20 +4,42 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- importing stylesheet -->
-  <link rel="stylesheet" href="./style.css" type="text/css">
-    <!-- logo  -->
-  <link rel="shortcut icon" type="image/jpg" href="./assets/paddle-blue.jpg">
+  <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
+  <!-- include header.php for header & side nav -->
+  <?php include './includes/header.php'; ?>
+
   <?php
-    echo "New Account";
+    // defining variable for emailType
+    $emailType = "newAccount";
   ?>
 
-  <!-- Form redirect to -> send-email.php emailType = newAccount -->
-  <form action="" method="post">
-    <!-- can be hidden input in order to store emailType value as newAccount -->
-  </form>
+  <main>
+    <section class="newAccountMain">
+      <div class="wrapper">
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
+        
+        <h2>Create A New Account</h2>
+        <hr>
+      </div>
+      <div class="wrapper">
+        <!-- Form redirect to -> send-email.php emailType = newAccount -->
+        <form action="send-email.php" method="post" class="sendEmailForm">
+          <!-- email input -->
+          <label for="newEmail">Email: </label>
+          <input type="email" name="newEmail" id="newEmail" placeholder="Your Email" required>
+          <!-- can be hidden input in order to store emailType value as newAccount -->
+          <input type="hidden" name="emailType" value="<?php echo $emailType; ?>">
+          <!-- submit button -->
+          <button type="submit" name="submit">Create account</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- include footer.php for copyright -->
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>
