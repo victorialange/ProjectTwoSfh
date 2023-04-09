@@ -203,6 +203,10 @@ footer p {
 
 /* PHP pages styling */
 /* isn't working */
+.isntWorkingMain {
+  margin-bottom: 10rem;
+}
+
 .gifContainer {
   width: 50%;
 }
@@ -297,9 +301,10 @@ footer p {
 @media (max-width: 350px) {
   .headingContainer {
     top: 25%;
-  }
-  h2 {
     line-height: 0.5;
     font-size: 1.5rem;
+  }
+  .isntWorkingMain {
+    margin-bottom: 12rem;
   }
 }
