@@ -217,7 +217,7 @@ footer p {
   flex-direction: column;
   align-items: center;
   height: 12.5rem;
-  margin-top: 5rem;
+  margin-top: 2rem;
   background-color: #ddd4d1;
   text-align: center;
   margin-bottom: 12rem;
@@ -248,6 +248,14 @@ footer p {
   margin-bottom: 20rem;
 }
 
+/* logout link for all pages */
+.logoutLink {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 3rem;
+}
+
 /* media query */
 /* 1200px breakpoint (small laptop) */
 @media (max-width: 1200px) {
@@ -259,6 +267,9 @@ footer p {
   }
   .project2homeMain {
     margin: 0;
+  }
+  .logoutLink {
+    width: 95%;
   }
 }
 
