@@ -201,6 +201,11 @@ footer p {
   margin: 0;
 }
 
+/* PHP pages styling */
+/* isn't working */
+.gifContainer {
+  width: 50%;
+}
 /* media query */
 /* 1200px breakpoint (small laptop) */
 @media (max-width: 1200px) {

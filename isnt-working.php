@@ -11,8 +11,15 @@
   <?php include 'header.php'; ?>
 
   <?php
-    echo "So your computer isn't working";
+    
   ?>
+
+  <h3>So your computer isn't working</h3>
+  <hr>
+
+  <div class="gifContainer">
+    <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
+  </div>
 
   <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
 
