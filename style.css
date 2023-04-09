@@ -206,6 +206,11 @@ footer p {
 .gifContainer {
   width: 50%;
 }
+/* need help */
+.needHelpMain {
+  margin-bottom: 20rem;
+}
+
 /* media query */
 /* 1200px breakpoint (small laptop) */
 @media (max-width: 1200px) {
@@ -226,6 +231,9 @@ footer p {
   /* smaller burger icon */
   .burgerButton {
     width: 40px;
+  }
+  .needHelpMain {
+    margin-bottom: 27.5rem;
   }
 }
 
