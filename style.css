@@ -258,10 +258,14 @@ button[type="submit"]:focus {
 }
 
 /* logout link for all pages */
-.logoutLink {
-  display: inline-flex;
+.logoutContainer {
+  display: flex;
   width: 100%;
   justify-content: flex-end;
+}
+.logoutLink {
+  width: fit-content;
+  display: inline-block;
   margin-top: 3rem;
   color: #192e8b;
   text-decoration: underline;
@@ -329,9 +333,6 @@ button[type="submit"]:focus {
   }
   .project2homeMain {
     margin: 0;
-  }
-  .logoutLink {
-    width: 95%;
   }
 }
 
