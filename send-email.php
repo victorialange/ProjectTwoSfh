@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <?php
     // if emailType = newAccount-> just display new account msg (Your Account has been created successfully)
@@ -23,9 +23,9 @@
   <main>
     <section class="sendEmailMain">
       <div class="wrapper">
-        <!-- ->Button to Logout.php across all pages -->
-        <!-- log out - redirect to log out page - destroy session -->
-        <a href="logout.php" class="logoutLink">Log out</a>
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
+
         <!-- if emailType = newAccount-> just display new account msg  -->
         <?php if ( $emailType == "newAccount" ) { ?> 
           <h3 class="message">New Account was created successfully.</h3>    
@@ -40,6 +40,6 @@
   </main>
 
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>

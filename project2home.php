@@ -9,16 +9,15 @@
 <body>
 
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <!-- Start session -->
 
   <main>
     <section class="project2homeMain">
       <div class="wrapper">
-        <!-- ->Button to Logout.php across all pages -->
-        <!-- log out - redirect to log out page - destroy session -->
-        <a href="logout.php" class="logoutLink">Log out</a>
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
       </div>
 
       <div class="supportFormContainer">
@@ -59,7 +58,6 @@
 
             <!-- submit button -->
             <button type="submit" name="submit" value="Submit">Submit</button>
-
           </form>
         </div>
       </div>
@@ -67,6 +65,6 @@
   </main>
 
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>

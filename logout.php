@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <?php
     // Destroy session
@@ -27,6 +27,6 @@
   </main>
 
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>

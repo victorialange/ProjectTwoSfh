@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <?php
 
@@ -18,9 +18,9 @@
   <main>
     <section class="needHelpMain">
       <div class="wrapper">
-        <!-- ->Button to Logout.php across all pages -->
-        <!-- log out - redirect to log out page - destroy session -->
-        <a href="logout.php" class="logoutLink">Log out</a>
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
+
         <!-- content -->
         <h3>So You Need Help</h3>
         <hr>
@@ -30,6 +30,6 @@
   </main>
 
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>

@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <?php
     // defining variable for emailType
@@ -18,9 +18,9 @@
   <main>
     <section class="newAccountMain">
       <div class="wrapper">
-        <!-- ->Button to Logout.php across all pages -->
-        <!-- log out - redirect to log out page - destroy session -->
-        <a href="logout.php" class="logoutLink">Log out</a>
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
+        
         <h2>Create A New Account</h2>
         <hr>
       </div>
@@ -40,6 +40,6 @@
   </main>
 
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>

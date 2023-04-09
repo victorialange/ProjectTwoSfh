@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include 'header.php'; ?>
+  <?php include './includes/header.php'; ?>
 
   <!-- storing form data -->
   <?php
@@ -29,9 +29,8 @@
   <main>
     <section class="problemMain">
       <div class="wrapper">
-        <!-- ->Button to Logout.php across all pages -->
-        <!-- log out - redirect to log out page - destroy session -->
-        <a href="logout.php" class="logoutLink">Log out</a>
+        <!-- include logoutLink.php for link -->
+        <?php include "./includes/logoutLink.php"?>
 
         <!-- greeting according to rule -->
         <h2>Hello <?php echo $_SESSION['role']; ?></h2>
@@ -83,6 +82,6 @@
     </section>
   </main>
   <!-- include footer.php for copyright -->
-  <?php include 'footer.php'; ?>
+  <?php include './includes/footer.php'; ?>
 </body>
 </html>
