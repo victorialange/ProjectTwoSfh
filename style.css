@@ -271,6 +271,9 @@ footer p {
   .needHelpMain {
     margin-bottom: 27.5rem;
   }
+  .gifContainer {
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px) {
