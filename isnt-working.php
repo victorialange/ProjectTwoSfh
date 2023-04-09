@@ -13,15 +13,21 @@
   <?php
     
   ?>
-  <main class="isntWorkingMain">
-    <div class="wrapper">
-      <h3>So your computer isn't working</h3>
-      <hr>
-      <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
-      <div class="gifContainer">
-        <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
+  <main>
+    <section class="isntWorkingMain">
+      <div class="wrapper">
+        <!-- ->Button to Logout.php across all pages -->
+        <!-- log out - redirect to log out page - destroy session -->
+        <a href="logout.php" class="logoutLink">Log out</a>
+
+        <h2>So your computer isn't working...</h2>
+        <hr>
+        <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
+        <div class="gifContainer">
+          <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
+        </div>
       </div>
-    </div>
+    </section>
   </main>
 
   <!-- include footer.php for copyright -->
