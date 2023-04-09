@@ -15,7 +15,62 @@
     // if role= 'admin' -> link to: new-account.php and isnt-working.php 
     // if role = 'manager' ->link to: lost-password.php and isnt-working.php 
     // if role= 'ceo' ->link to: need-help.php and isnt-working.php 
+
+    // define variables retrieved from form (post variables)
+    // here role value from dropdown is more important
+    $role = $_POST['role'];
+    // echo "Role: $role";
+    // echo "Hello $role";
+
   ?>
+
+  <!-- greeting according to rule -->
+  <h2>Hello <?php echo $role; ?></h2>
+
+  <h3>Here are your options:</h3>
+
+  <!-- if role= 'admin' -> link to: new-account.php and isnt-working.php  -->
+  <?php if ( $role == "Admin" ) { ?> 
+    <ul>
+      <!-- redirect to computer isn't working -->
+      <li>
+        <a href="isnt-working.php">My computer isn't working</a>
+      </li>
+      <!-- redirect to create new account -->
+      <li>
+        <a href="new-account.php">Create New Account</a>
+      </li>
+    </ul>
+  <?php } ?>
+
+  <!-- if role = 'manager' ->link to: lost-password.php and isnt-working.php  -->
+  <?php if ( $role == "Manager" ) { ?> 
+    <ul>
+      <!-- redirect to computer isn't working -->
+      <li>
+        <a href="isnt-working.php">My computer isn't working</a>
+      </li>
+      <!-- redirect to lost-password -->
+      <li>
+        <a href="lost-password.php">Lost Password</a>
+      </li>
+    </ul>
+  <?php } ?>
+
+  <!-- if role= 'ceo' ->link to: need-help.php and isnt-working.php -->
+  <?php if ( $role == "CEO" ) { ?> 
+    <ul>
+       <!-- redirect to computer isn't working -->
+      <li>
+        <a href="isnt-working.php">My computer isn't working</a>
+      </li>
+      <!-- redirect to need help -->
+      <li>
+        <a href="need-help.php">Need Help</a>
+      </li>
+    </ul>
+  <?php } ?>
+
 
   <!-- include footer.php for copyright -->
   <?php include 'footer.php'; ?>
