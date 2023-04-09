@@ -240,11 +240,16 @@ footer p {
   border-radius: 3px;
 }
 
-.supportForm button {
-  background-color: #2890CD;
+button[type="submit"] {
+  background-color: #1a618a;
   color: white;
-  border: 3px solid #2890CD;
+  border: 3px solid #1a618a;
   border-radius: 3px;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  background-color: #154d6d;
 }
 
 /* need help */
