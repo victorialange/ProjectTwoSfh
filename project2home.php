@@ -22,7 +22,7 @@
 
   <!-- initial form with 4 fields -->
   <!-- send values of form to problem.php -->
-  <form action="problem.php" method="post">
+      <form action="problem.php" method="post" class="supportForm">
     <!-- 1st field: dropdown menu for title -->
         <!-- label only visible to screen readers for accessibility -->
         <label for="title" class="sr-only">Title</label>

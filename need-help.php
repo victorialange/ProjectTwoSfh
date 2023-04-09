@@ -16,9 +16,11 @@
 
   <!-- Content for CEO, just show a phone number to call -->
   <main class="needHelpMain">
-    <h3>So You Need Help</h3>
-    <hr>
-    <h4>Call <a href="tel:7001235768">7001235768</a> for support</h4>
+    <div class="wrapper">
+      <h3>So You Need Help</h3>
+      <hr>
+      <h4>Call <a href="tel:7001235768">7001235768</a> for support</h4>
+    </div>
   </main>
 
   <!-- include footer.php for copyright -->

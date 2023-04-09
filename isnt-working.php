@@ -15,13 +15,12 @@
   ?>
   <main class="isntWorkingMain">
     <div class="wrapper">
-  <h3>So your computer isn't working</h3>
-  <hr>
+      <h3>So your computer isn't working</h3>
+      <hr>
       <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
       <div class="gifContainer">
         <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
       </div>
-
     </div>
   </main>
 
