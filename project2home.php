@@ -4,17 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- importing stylesheet -->
-  <link rel="stylesheet" href="./style.css" type="text/css">
-  <!-- logo  -->
-  <link rel="shortcut icon" type="image/jpg" href="./assets/paddle-blue.jpg">
+  <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
 
-  <?php
-    // header.php (Start session)
-  ?>
+  <!-- include header.php for header & side nav -->
+  <?php include 'header.php'; ?>
+
+  <!-- Start session -->
 
   <!-- ->Button to Logout.php across all pages -->
 
@@ -44,7 +41,13 @@
       <option value="manager">Manager</option>
       <option value="ceo">CEO</option>
     </select>
+
+    <!-- submit button -->
+    <button type="submit">Submit</button>
+
   </form>
 
+  <!-- include footer.php for copyright -->
+  <?php include 'footer.php'; ?>
 </body>
 </html>
