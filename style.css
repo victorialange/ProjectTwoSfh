@@ -286,6 +286,17 @@ footer p {
 .lostPasswordMain {
   margin-bottom: 12.5rem;
 }
+
+/* send email */
+.sendEmailMain {
+  margin-bottom: 15rem;
+}
+
+/* logout */
+.logoutMain {
+  margin-bottom: 20rem;
+}
+
 /* message for pages without other content */
 .message {
   margin-top: 5rem;
@@ -323,6 +334,9 @@ footer p {
   }
   .needHelpMain {
     margin-bottom: 27.5rem;
+  }
+  .sendEmailMain {
+    margin-bottom: 25rem;
   }
   .problemMain {
     margin-bottom: 17.5rem;
