@@ -18,8 +18,12 @@
   <main>
     <section class="needHelpMain">
       <div class="wrapper">
-        <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
+        <div class="linksContainer">
+          <!-- include backLink.php for going back to options -->
+          <?php include "./includes/backLink.php"?>
+          <!-- include logoutLink.php for link -->
+          <?php include "./includes/logoutLink.php"?>
+        </div>
 
         <!-- content -->
         <h3>So You Need Help</h3>

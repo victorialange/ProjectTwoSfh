@@ -18,9 +18,13 @@
   <main>
     <section class="newAccountMain">
       <div class="wrapper">
-        <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
-        
+        <div class="linksContainer">
+          <!-- include backLink.php for going back to options -->
+          <?php include "./includes/backLink.php"?>
+          <!-- include logoutLink.php for link -->
+          <?php include "./includes/logoutLink.php"?>
+        </div>
+
         <h2>Create A New Account</h2>
         <hr>
       </div>

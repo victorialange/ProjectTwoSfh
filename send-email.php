@@ -23,8 +23,12 @@
   <main>
     <section class="sendEmailMain">
       <div class="wrapper">
-        <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
+        <div class="linksContainer">
+          <!-- include backLink.php for going back to options -->
+          <?php include "./includes/backLink.php"?>
+          <!-- include logoutLink.php for link -->
+          <?php include "./includes/logoutLink.php"?>
+        </div>
 
         <!-- if emailType = newAccount-> just display new account msg  -->
         <?php if ( $emailType == "newAccount" ) { ?> 

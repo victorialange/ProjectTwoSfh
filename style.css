@@ -257,19 +257,41 @@ button[type="submit"]:focus {
   margin-bottom: 20rem;
 }
 
-.needHelpMain a:hover,
-.needHelpMain a:focus {
+h4 a:hover,
+h4 a:focus {
   color: #23701c;
   font-weight: bold;
+}
+
+/* links container */
+.linksContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* back to options link for all pages minus problem.php & logout.php */
+.backToOptions {
+  display: flex;
+  justify-content: flex-start;
+  width: -moz-available;
+}
+
+.backLink {
+  width: fit-content;
+  display: inline-block;
+  margin-top: 3rem;
 }
 
 /* logout link for all pages */
 .logoutContainer {
   display: flex;
-  width: 100%;
+  width: -moz-available;
   justify-content: flex-end;
 }
-.logoutLink {
+
+.logoutLink,
+.backLink {
   width: fit-content;
   display: inline-block;
   margin-top: 3rem;
@@ -279,6 +301,8 @@ button[type="submit"]:focus {
 
 .logoutLink:hover,
 .logoutLink:focus,
+.backLink:hover,
+.backLink:focus,
 .optionsUl a:hover,
 .optionsUl a:focus {
   color: rgb(7, 7, 218);
