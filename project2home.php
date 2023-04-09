@@ -19,7 +19,8 @@
   <!-- send values of form to problem.php -->
   <form action="problem.php" method="post">
     <!-- 1st field: dropdown menu for title -->
-    <label for="title">Title</label>
+        <!-- label only visible to screen readers for accessibility -->
+        <label for="title" class="sr-only">Title</label>
     <select name="title" id="title" required>
       <option value="mr">Mr</option>
       <option value="ms">Ms</option>
@@ -27,15 +28,18 @@
     </select>
 
     <!-- 2nd field: input bar for first name -->
-    <label for="fName">First Name</label>
-    <input type="text" name="fName" id="fName" required>
+        <!-- label only visible to screen readers for accessibility -->
+        <label for="fName" class="sr-only">First Name</label>
+        <input type="text" name="fName" id="fName" placeholder="First Name" required>
 
     <!-- 3rd field: input bar for last name -->
-    <label for="lName">Last Name</label>
-    <input type="text" name="lName" id="lName" required>
+        <!-- label only visible to screen readers for accessibility -->
+        <label for="lName" class="sr-only">Last Name</label>
+        <input type="text" name="lName" id="lName" placeholder="Last Name" required>
 
     <!-- 4th field: dropdwon menu for role -->
-    <label for="role">Role</label>
+        <!-- label only visible to screen readers for accessibility -->
+        <label for="role" class="sr-only">Role</label>
     <select name="role" id="role" required>
       <option value="Admin">Admin</option>
       <option value="Manager">Manager</option>
