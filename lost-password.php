@@ -11,13 +11,33 @@
   <?php include 'header.php'; ?>
 
   <?php
-    echo "Lost Password";
+    // defining variable for emailType
+    $emailType = "lostPassword";
   ?>
 
-  <!-- Form redirect to -> send-email.php emailType = lostPassword -->
-  <form action="" method="post">
-    <!-- can be hidden input in order to store emailType value as lostPassword -->
-  </form>
+  <main>
+    <section class="lostPasswordMain">
+      <div class="wrapper">
+        <!-- ->Button to Logout.php across all pages -->
+        <!-- log out - redirect to log out page - destroy session -->
+        <a href="logout.php" class="logoutLink">Log out</a>
+        <h2>Lost Your Password? Get a new one here!</h2>
+        <hr>
+      </div>
+      <div class="wrapper">
+        <!-- Form redirect to -> send-email.php emailType = lostPassword -->
+        <form action="send-email.php" method="post">
+          <!-- email input -->
+          <label for="existingEmail">Email</label>
+          <input type="email" name="existingEmail" id="existingEmail" placeholder="Your Email" required>
+          <!-- can be hidden input in order to store emailType value as newAccount -->
+          <input type="hidden" name="emailType" value="<?php echo $emailType; ?>">
+          <!-- submit button -->
+          <button type="submit" name="submit">Get new password</button>
+        </form>
+      </div>
+    </section>
+  </main>
 
   <!-- include footer.php for copyright -->
   <?php include 'footer.php'; ?>
