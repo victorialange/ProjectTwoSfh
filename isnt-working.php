@@ -13,15 +13,17 @@
   <?php
     
   ?>
-
+  <main class="isntWorkingMain">
+    <div class="wrapper">
   <h3>So your computer isn't working</h3>
   <hr>
+      <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
+      <div class="gifContainer">
+        <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
+      </div>
 
-  <div class="gifContainer">
-    <img src="https://media.tenor.com/0TXhXL0yqDsAAAAd/dean-pelton.gif" alt="Dean Pelton's computer is not working">
-  </div>
-
-  <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
+    </div>
+  </main>
 
   <!-- include footer.php for copyright -->
   <?php include 'footer.php'; ?>

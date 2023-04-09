@@ -15,6 +15,11 @@
 
   <!-- ->Button to Logout.php across all pages -->
 
+  <div class="supportFormContainer">
+    <div class="wrapper">
+      <!-- form heading -->
+      <h2>Welcome To Your IT Support System</h2>
+
   <!-- initial form with 4 fields -->
   <!-- send values of form to problem.php -->
   <form action="problem.php" method="post">
@@ -50,6 +55,8 @@
     <button type="submit">Submit</button>
 
   </form>
+    </div>
+  </div>
 
   <!-- include footer.php for copyright -->
   <?php include 'footer.php'; ?>
