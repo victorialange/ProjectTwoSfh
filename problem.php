@@ -16,12 +16,14 @@
     // if role = 'manager' ->link to: lost-password.php and isnt-working.php 
     // if role= 'ceo' ->link to: need-help.php and isnt-working.php 
 
-    // define variables retrieved from form (post variables)
-    // here role value from dropdown is more important
-    $role = $_POST['role'];
-    // echo "Role: $role";
-    // echo "Hello $role";
-
+    // checking if post variable is set
+    if (isset($_POST['submit'])) {
+      // store session data by setting it equal to its post variables retrieved from the form upon submission
+      $_SESSION['title'] = $_POST['title'];
+      $_SESSION['fName'] = $_POST['fName'];
+      $_SESSION['lName'] = $_POST['lName'];
+      $_SESSION['role'] = $_POST['role'];
+    }
   ?>
 
   <!-- greeting according to rule -->
