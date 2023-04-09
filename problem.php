@@ -40,7 +40,7 @@
 
         <!-- if role= 'admin' -> link to: new-account.php and isnt-working.php  -->
         <?php if ( $_SESSION['role'] == "Admin" ) { ?> 
-          <ul>
+          <ul class="optionsUl">
             <!-- redirect to computer isn't working -->
             <li>
               <a href="isnt-working.php">My computer isn't working</a>
@@ -54,7 +54,7 @@
 
         <!-- if role = 'manager' ->link to: lost-password.php and isnt-working.php  -->
         <?php if ( $_SESSION['role'] == "Manager" ) { ?> 
-          <ul>
+          <ul class="optionsUl">
             <!-- redirect to computer isn't working -->
             <li>
               <a href="isnt-working.php">My computer isn't working</a>
@@ -68,7 +68,7 @@
 
         <!-- if role= 'ceo' ->link to: need-help.php and isnt-working.php -->
         <?php if ( $_SESSION['role'] == "CEO" ) { ?> 
-          <ul>
+          <ul class="optionsUl">
             <!-- redirect to computer isn't working -->
             <li>
               <a href="isnt-working.php">My computer isn't working</a>
