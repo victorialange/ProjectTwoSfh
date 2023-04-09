@@ -257,6 +257,12 @@ button[type="submit"]:focus {
   margin-bottom: 20rem;
 }
 
+.needHelpMain a:hover,
+.needHelpMain a:focus {
+  color: #23701c;
+  font-weight: bold;
+}
+
 /* logout link for all pages */
 .logoutContainer {
   display: flex;
