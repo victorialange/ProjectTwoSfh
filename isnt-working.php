@@ -11,7 +11,7 @@
   <?php include 'header.php'; ?>
 
   <?php
-
+    echo "So your computer isn't working";
   ?>
 
   <!-- Content (Gif of your choice) for all roles (Admin, Manager, CEO) -->
