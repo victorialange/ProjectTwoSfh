@@ -10,10 +10,6 @@
   <!-- include header.php for header & side nav -->
   <?php include './includes/header.php'; ?>
 
-  <?php
-
-  ?>
-
   <!-- Content for CEO, just show a phone number to call -->
   <main>
     <section class="needHelpMain">

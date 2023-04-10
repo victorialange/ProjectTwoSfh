@@ -10,9 +10,6 @@
   <!-- include header.php for header & side nav -->
   <?php include './includes/header.php'; ?>
 
-  <?php
-    
-  ?>
   <main>
     <section class="isntWorkingMain">
       <div class="wrapper">
