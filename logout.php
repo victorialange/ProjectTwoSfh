@@ -1,3 +1,12 @@
+<!-- include header.php for header & side nav -->
+<?php include './includes/header.php'; ?> 
+<?php
+    // Destroy session
+    session_destroy();
+    // this will redirect the user again to the "login page/ the support form"
+    header('Refresh: 2; URL = project2home.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,16 +16,6 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-  <!-- include header.php for header & side nav -->
-  <?php include './includes/header.php'; ?> 
-
-  <?php
-    // Destroy session
-    session_destroy();
-    // this will redirect the user again to the "login page/ the support form"
-    header('Refresh: 2; URL = project2home.php');
-  ?>
-
   <main>
     <section class="logoutMain">
       <div class="wrapper">
