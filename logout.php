@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- include header.php for header & side nav -->
-  <?php include './includes/header.php'; ?>
+  <?php include './includes/header.php'; ?> 
 
   <?php
     // Destroy session

@@ -1,3 +1,6 @@
+<!-- include header.php for header & side nav -->
+<?php include './includes/header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +10,6 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-  <!-- include header.php for header & side nav -->
-  <?php include './includes/header.php'; ?>
 
   <!-- Content for CEO, just show a phone number to call -->
   <main>

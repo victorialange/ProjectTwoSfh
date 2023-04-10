@@ -1,3 +1,6 @@
+<!-- include header.php for header & side nav -->
+<?php include './includes/header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +10,6 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-  <!-- include header.php for header & side nav -->
-  <?php include './includes/header.php'; ?>
 
   <?php
     // if emailType = newAccount-> just display new account msg (Your Account has been created successfully)
