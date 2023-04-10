@@ -11,8 +11,6 @@
   <!-- include header.php for header & side nav -->
   <?php include './includes/header.php'; ?>
 
-  <!-- Start session -->
-
   <main>
     <section class="project2homeMain">
       <div class="wrapper">

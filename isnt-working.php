@@ -10,14 +10,16 @@
   <!-- include header.php for header & side nav -->
   <?php include './includes/header.php'; ?>
 
-  <?php
-    
-  ?>
   <main>
     <section class="isntWorkingMain">
       <div class="wrapper">
-        <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
+        <!-- links container for back link & logout -->
+        <div class="linksContainer">
+          <!-- include backLink.php for going back to options -->
+          <?php include "./includes/backLink.php"?>
+          <!-- include logoutLink.php for link -->
+          <?php include "./includes/logoutLink.php"?>
+        </div>
 
         <h2>So your computer isn't working...</h2>
         <hr>
