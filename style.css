@@ -364,6 +364,9 @@ h4 a:focus {
   .project2homeMain {
     margin: 0;
   }
+  .project2homeMain .logoutContainer {
+    width: 95%;
+  }
 }
 
 /* 800px breakpoint (tablet) */
