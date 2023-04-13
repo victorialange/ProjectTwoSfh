@@ -1,6 +1,6 @@
-<!-- initialize session -->
 <?php
-  session_start();
+ // initialize session only if no session present
+ @session_start();
 ?>
 
 <!DOCTYPE html>
