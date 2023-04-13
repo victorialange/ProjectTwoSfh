@@ -1,9 +1,12 @@
 <?php include './includes/header.php'; ?> 
 <?php
+  if (isset($_SESSION['kill'])) {
+    $_SESSION = [];
     // Destroy session
     session_destroy();
     // this will redirect the user again to the "login page/ the support form"
-    header('Refresh: 2; URL = project2home.php');
+    exit();
+  }
 ?>
 
 <!DOCTYPE html>
@@ -28,3 +31,6 @@
   <?php include './includes/footer.php'; ?>
 </body>
 </html>
+<?php 
+  $_SESSION['kill']="kill";
+?>
