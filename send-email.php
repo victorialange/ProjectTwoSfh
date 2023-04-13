@@ -1,4 +1,3 @@
-<!-- include header.php for header & side nav -->
 <?php include './includes/header.php'; ?>
 
 <!DOCTYPE html>

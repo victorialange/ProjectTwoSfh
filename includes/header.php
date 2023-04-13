@@ -1,4 +1,3 @@
-<!-- initialize session -->
 <?php
   if( empty(session_id()) && !headers_sent()){
     session_start();
