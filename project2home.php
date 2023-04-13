@@ -1,3 +1,5 @@
+<?php include './includes/header.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,11 +9,6 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-
-  <!-- include header.php for header & side nav -->
-  <?php include './includes/header.php'; ?>
-
-  <!-- Start session -->
 
   <main>
     <section class="project2homeMain">
