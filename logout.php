@@ -3,6 +3,7 @@
   if (isset($_SESSION['kill'])) {
     $_SESSION = [];
     // Destroy session
+    session_unset();
     session_destroy();
     // this will redirect the user again to the "login page/ the support form"
     exit();
