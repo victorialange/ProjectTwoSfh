@@ -10,11 +10,6 @@
   <title>Create New Account</title>
 </head>
 <body>
-
-  <?php
-    // defining variable for emailType
-    $emailType = "newAccount";
-  ?>
   <?php include './includes/nav-bar.php';?>
   <main>
     <section class="newAccountMain">
@@ -25,7 +20,7 @@
           <!-- include logoutLink.php for link -->
           <?php include "./includes/logout-link.php"?>
         </div>
-
+        <!-- Content -->
         <h2>Create A New Account</h2>
         <hr>
       </div>
@@ -36,7 +31,7 @@
           <label for="newEmail">Email: </label>
           <input type="email" name="email" id="newEmail" placeholder="Your Email" required>
           <!-- can be hidden input in order to store emailType value as newAccount -->
-          <input type="hidden" name="emailType" value="<?php echo $emailType; ?>">
+          <input type="hidden" name="emailType" value="newAccount">
           <!-- submit button -->
           <button type="submit" name="submit">Create account</button>
         </form>

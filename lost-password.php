@@ -10,11 +10,6 @@
   <title>Lost Password</title>
 </head>
 <body>
-
-  <?php
-    // defining variable for emailType
-    $emailType = "lostPassword";
-  ?>
   <?php include './includes/nav-bar.php';?>
   <main>
     <section class="lostPasswordMain">
@@ -25,7 +20,7 @@
           <!-- include logoutLink.php for link -->
           <?php include "./includes/logout-link.php"?>
         </div>
-
+        <!-- Content -->
         <h2>Lost Your Password? Get a new one here!</h2>
         <hr>
       </div>
@@ -36,7 +31,7 @@
           <label for="existingEmail">Email: </label>
           <input type="email" name="email" id="existingEmail" placeholder="Your Email" required>
           <!-- can be hidden input in order to store emailType value as newAccount -->
-          <input type="hidden" name="emailType" value="<?php echo $emailType; ?>">
+          <input type="hidden" name="emailType" value="lostPassword">
           <!-- submit button -->
           <button type="submit" name="submit">Get new password</button>
         </form>
