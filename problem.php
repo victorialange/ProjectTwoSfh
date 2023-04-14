@@ -38,6 +38,7 @@
     $_SESSION["run"] = true;
 
     // setting emailType based on selected role from form
+    // setting headers to same location as on project2-home.php when user is logged in (session variable for loggedIn is set)
     if ($_SESSION['role'] == "Admin") {
       $_SESSION['emailType'] = "newAccount";
       header("location: problem.php");
@@ -62,6 +63,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IT System Problems</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
   <!-- logo  -->
   <link rel="shortcut icon" type="image/jpg" href="./assets/paddle-blue.jpg">
 </head>
