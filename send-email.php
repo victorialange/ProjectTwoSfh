@@ -9,7 +9,7 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-
+  <?php include './includes/nav-bar.php';?>
   <?php
     // if emailType = newAccount-> just display new account msg (Your Account has been created successfully)
     // if emailType = lostPassword-> just display lost password msg (Your Password has been reset/retrieved/your new password is on its way)

@@ -9,7 +9,7 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-
+  <?php include './includes/nav-bar.php';?>
   <main>
     <section class="isntWorkingMain">
       <div class="wrapper">

@@ -22,6 +22,7 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
+  <?php include './includes/nav-bar.php';?>
   <main>
     <section class="logoutMain">
       <div class="wrapper">

@@ -9,7 +9,7 @@
   <title>Halifax Canoe and Kayak</title>
 </head>
 <body>
-
+  <?php include './includes/nav-bar.php';?>
   <!-- Content for CEO, just show a phone number to call -->
   <main>
     <section class="needHelpMain">

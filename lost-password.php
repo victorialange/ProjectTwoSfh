@@ -14,7 +14,7 @@
     // defining variable for emailType
     $emailType = "lostPassword";
   ?>
-
+  <?php include './includes/nav-bar.php';?>
   <main>
     <section class="lostPasswordMain">
       <div class="wrapper">

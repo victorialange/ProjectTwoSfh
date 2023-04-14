@@ -25,7 +25,8 @@
       $_SESSION['role'] = $_POST['role'];
     }
   ?>
-
+  
+  <?php include './includes/nav-bar.php';?>
   <main>
     <section class="problemMain">
       <div class="wrapper">

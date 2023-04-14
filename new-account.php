@@ -14,7 +14,7 @@
     // defining variable for emailType
     $emailType = "newAccount";
   ?>
-
+  <?php include './includes/nav-bar.php';?>
   <main>
     <section class="newAccountMain">
       <div class="wrapper">
