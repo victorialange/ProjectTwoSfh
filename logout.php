@@ -6,7 +6,7 @@
     session_unset();
     session_destroy();
     // this will redirect the user again to the "login page/ the support form"
-    echo "<script> location.href='project2home.php';; </script>"; 
+    echo "<script> location.href='project2-home.php';; </script>"; 
     exit();
   }
 ?>
