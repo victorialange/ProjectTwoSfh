@@ -75,8 +75,8 @@
         <!-- include logoutLink.php for link -->
         <?php include "./includes/logout-link.php"?>
 
-        <!-- greeting according to rule -->
-        <h2>Hello <?php echo $_SESSION['role']; ?></h2>
+        <!-- greeting according to role and form data -->
+        <h2>Hello, <?php echo $_SESSION['title'], " ", $_SESSION['fName'], " ", $_SESSION['lName'], " ", " ({$_SESSION['role']} account)" ?></h2>
         <hr>
         <h3>Here are your options:</h3>
 
