@@ -20,8 +20,9 @@
 
 <!-- hidden sidenav -->
 <nav class="sideNavHidden">
-    <ul class="sideNavContent">
-        <li><a href="index.php">Home</a></li>
-        <li><a href="#">Book Trip</a></li>
-    </ul>
+  <ul class="sideNavContent">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#">Book Trip</a></li>
+    <li><a href="project2-home.php">IT Support</a></li>
+  </ul>
 </nav>
