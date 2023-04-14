@@ -14,7 +14,10 @@
       if (!empty($_POST['title']) && !empty($_POST['fName']) && !empty($_POST['lName']) && !empty($_POST['role'])) {
         // retrieving post variables from form
         // storing values from post variable in initialized variables from above
-        $title = $_POST["title"];
+        // if user selects other for title don't display it on the screen
+        if ($_POST["title"] !== "other") {
+          $title = $_POST["title"];
+        } 
         $fName = $_POST['fName'];
         $lName = $_POST['lName'];
         $role = $_POST['role'];
