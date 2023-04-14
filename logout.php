@@ -19,7 +19,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- have logout page be displayed for 3.5 seconds before redirect -->
   <meta http-equiv="refresh" content="3.5">
-  <title>Halifax Canoe and Kayak</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Isn't Working</title>
 </head>
 <body>
   <?php include './includes/nav-bar.php';?>
