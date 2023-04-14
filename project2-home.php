@@ -1,6 +1,11 @@
 <?php
  session_start();
 // initialize session
+
+// if loggedIn is set (user has submitted form) redirect to problem.php since signed in users shouldn't be able to sign in again
+if (isset($_SESSION["loggedIn"]) ) {
+  header("location: problem.php");
+}
 ?>
 
 <!DOCTYPE html>
