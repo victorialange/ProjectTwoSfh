@@ -1,4 +1,3 @@
-<?php include './includes/header.php'; ?> 
 <?php
   if (isset($_SESSION['kill'])) {
     $_SESSION = [];
