@@ -78,9 +78,25 @@
         <?php include "./includes/logout-link.php"?>
 
         <!-- greeting according to role and form data -->
-        <h2>Hello, <?php echo $_SESSION['title'], " ", $_SESSION['fName'], " ", $_SESSION['lName'], " ", " ({$_SESSION['role']} account)" ?></h2>
-        <hr>
-        <h3>Here are your options:</h3>
+        <!-- error handling for when session variable fails (if role is clear can still show options) -->
+        <?php
+         if (!empty($_SESSION['role'])) { ?> 
+          <h2>Hello, <?php echo $_SESSION['title'], " ", $_SESSION['fName'], " ", $_SESSION['lName'], " ", " ({$_SESSION['role']} account)" ?></h2>
+          <hr>
+          <h3>Here are your options:</h3>
+         <?php } 
+         else if (empty($_SESSION['fName']) || empty($_SESSION['lName'])) { ?> 
+          <h2>Hello, <?php echo $_SESSION['role'] ?></h2>
+          <hr>
+          <h3>Here are your options:</h3>
+         <?php }
+         else {?>
+          <h2>Hello, stranger</h2>
+          <hr>
+          <h3>Sorry no options for you, something seems to have gone wrong, maybe a session timeout. We apologize for the inconvenience.</h3>
+         <?php
+         }
+        ?>
 
         <!-- if role= 'admin' -> link to: new-account.php and isnt-working.php  -->
         <?php if ( $_SESSION['role'] == "Admin" ) { ?> 
