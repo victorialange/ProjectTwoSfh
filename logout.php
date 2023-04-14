@@ -34,7 +34,6 @@
       </div>
     </section>
   </main>
-
   <!-- include footer.php for copyright -->
   <?php include './includes/footer.php'; ?>
 </body>

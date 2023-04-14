@@ -2,20 +2,20 @@
 <!-- Skip Link -->
 <!-- HEADER -->
 <header>
-    <nav class="mainNav">
-        <!-- hamburger icon img -->
-        <button class="burgerButton" aria-label="click this icon to open the side navigation">
-          <img src="./assets/hamburger.png" alt="burger icon to open navigation menu">
-        </button>
-        <!-- main heading -->
-        <div class="mainHeadingContainer">
-          <h1>Halifax Canoe and Kayak</h1>
-        </div><!-- END main heading -->
-        <!-- logo img -->
-        <div class="logoContainer">
-          <img src="./assets/paddle-white.png" alt="white paddle">
-        </div>
-    </nav>
+  <nav class="mainNav">
+    <!-- hamburger icon img -->
+    <button class="burgerButton" aria-label="click this icon to open the side navigation">
+      <img src="./assets/hamburger.png" alt="burger icon to open navigation menu">
+    </button>
+    <!-- main heading -->
+    <div class="mainHeadingContainer">
+      <h1>Halifax Canoe and Kayak</h1>
+    </div><!-- END main heading -->
+    <!-- logo img -->
+    <div class="logoContainer">
+      <img src="./assets/paddle-white.png" alt="white paddle">
+    </div>
+  </nav>
 </header>
 
 <!-- hidden sidenav -->
