@@ -14,7 +14,7 @@
     <section class="project2homeMain">
       <div class="wrapper">
         <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
+        <?php include "./includes/logout-link.php"?>
       </div>
 
       <div class="supportFormContainer">

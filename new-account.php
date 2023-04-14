@@ -20,9 +20,9 @@
       <div class="wrapper">
         <div class="linksContainer">
           <!-- include backLink.php for going back to options -->
-          <?php include "./includes/backLink.php"?>
+          <?php include "./includes/back-link.php"?>
           <!-- include logoutLink.php for link -->
-          <?php include "./includes/logoutLink.php"?>
+          <?php include "./includes/logout-link.php"?>
         </div>
 
         <h2>Create A New Account</h2>

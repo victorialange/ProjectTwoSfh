@@ -30,7 +30,7 @@
     <section class="problemMain">
       <div class="wrapper">
         <!-- include logoutLink.php for link -->
-        <?php include "./includes/logoutLink.php"?>
+        <?php include "./includes/logout-link.php"?>
 
         <!-- greeting according to rule -->
         <h2>Hello <?php echo $_SESSION['role']; ?></h2>

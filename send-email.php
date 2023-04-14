@@ -27,9 +27,9 @@
       <div class="wrapper">
         <div class="linksContainer">
           <!-- include backLink.php for going back to options -->
-          <?php include "./includes/backLink.php"?>
+          <?php include "./includes/back-link.php"?>
           <!-- include logoutLink.php for link -->
-          <?php include "./includes/logoutLink.php"?>
+          <?php include "./includes/logout-link.php"?>
         </div>
 
         <!-- if emailType = newAccount-> just display new account msg  -->
