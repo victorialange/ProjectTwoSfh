@@ -50,7 +50,6 @@
     }
 
     if ($_SESSION['role'] == "CEO") {
-      $_SESSION['emailType'] = "needHelp";
       header("location: problem.php");
     }
   }
