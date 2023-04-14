@@ -20,7 +20,9 @@
   <!-- have logout page be displayed for 3.5 seconds before redirect -->
   <meta http-equiv="refresh" content="3.5">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <title>Isn't Working</title>
+  <title>Logout</title>
+  <!-- logo  -->
+  <link rel="shortcut icon" type="image/jpg" href="./assets/paddle-blue.jpg">
 </head>
 <body>
   <?php include './includes/nav-bar.php';?>

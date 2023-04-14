@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <title>Need Help</title>
+  <!-- logo  -->
+  <link rel="shortcut icon" type="image/jpg" href="./assets/paddle-blue.jpg">
 </head>
 <body>
   <?php include './includes/nav-bar.php';?>
