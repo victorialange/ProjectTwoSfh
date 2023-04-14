@@ -24,12 +24,12 @@
         </div>
 
         <!-- if emailType = newAccount-> just display new account msg  -->
-        <?php if ( $emailType == "newAccount" ) { ?> 
+        <?php if ( $_SESSION['emailType'] == "newAccount" ) { ?> 
           <h3 class="message">New Account was created successfully.</h3>    
         <?php } ?>
 
         <!-- if emailType = lostPassword-> just display lost password msg -->
-        <?php if ( $emailType == "lostPassword" ) { ?> 
+        <?php if ( $_SESSION['emailType'] == "lostPassword" ) { ?> 
           <h3 class="message">Your new password is being sent to your email.</h3>    
         <?php } ?>
       </div>
