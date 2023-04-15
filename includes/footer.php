@@ -1,17 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Halifax Canoe and Kayak</title>
-    <!-- importing stylesheet -->
-    <link rel="stylesheet" href="./style.css" type="text/css">
-</head>
-<body>
-    <!-- FOOTER -->
-    <footer>
-      <small>Copyright ©️ Halifax Canoe and Kayak 2023</small>
-    </footer>
-</body>
-</html>
+<footer>
+    <small>Copyright ©️ Halifax Canoe and Kayak 2023</small>
+</footer>
+
+<!-- importing jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- js file for toggle -->
+<script src="script.js"></script>
